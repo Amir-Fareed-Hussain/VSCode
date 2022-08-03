@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header-bg: #242222;
+    --bg: #191919;
+    --section-bg: #181515;
+    --helper: #FF3333;
+    --para: darkgray;
+    --defaualt: #fff;
+    --btn-bg: rgb(33, 120, 225);
+    --spacial: deepskyblue;
+}
+
+/* ======================
+    header Section Start
+====================== */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--header-bg);
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.logo-image {
+    width: 6vw;
+    height: 11vh;
+    border-radius: 5rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav-link {
+    font-size: 2rem;
+    font-style: italic;
+    transition: color 0.3s linear;
+}
+
+.nav-link a {
+    transition: color 0.3s linear;
+}
+
+.nav-link a:hover {
+    color: lightblue;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    color: var(--defaualt);
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border: 1px solid darkcyan;
+    border-radius: 0.4rem;
+    transition: all 0.5s ease-in;
+    margin-right: 1.1rem;
+}
+
+.search:hover {
+    box-shadow: 2px 10px 10px darkcyan;
+}
+
+/* ======================
+        Hero Section Start
+    ====================== */
+
+.main-content {
+    width: 100%;
+    height: 85vh;
+}
+
+.Hero-container {
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg);
+}
+
+.Hero-data {
+    width: 55vw;
+}
+
+.Hero-heading {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.Hero-sub-title {
+    color: var(--para);
+    text-transform: capitalize;
+    margin: 2rem 0;
+}
+
+.Hero-image {
+    width: 31vw;
+}
+
+.Hero-image img {
+    width: 100%;
+}
+
+/* =================================
+        download Section Start
+    ====================== */
+
+.download-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #292929;
+    padding: 3.4rem 4.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in;
+}
+
+.download-card:hover {
+    margin-bottom: 1rem;
+    box-shadow: 3px 20px 3rem var(--spacial);
+}
+
+.card-heading {
+    color: cadetblue;
+    margin: 2rem 0;
+    font-size: 4.5rem;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.download-btn {
+    padding: 12px 26px;
+    color: #FF3333;
+    border: 1px solid #FF8000;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.download-btn:hover {
+    color: var(--defaualt);
+    background-color: var(--helper);
+}
+
+/* =================================
+        About Section Start
+    ====================== */
+
+.about-me {
+    background-color: var(--spacial);
+    padding: 4rem 0;
+}
+
+.about-heading-div {
+    height: 10rem;
+}
+
+.about-heading {
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.about-btn {
+    color: white;
+    margin: 0 4.4rem;
+    padding: 0.6rem 2.4rem;
+    background: black;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.about-btn:hover,
+.about-btn:active {
+    opacity: 0.5;
+}
+
+/* =================================
+        Tutorial Section Start
+    ====================== */
+    
+.using-vs-section {
+    background-color: var(--bg);
+}
+
+.Using-VsCode {
+    padding: 150px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.using-vs-left {
+    width: 40%;
+}
+
+.using-vs-left img {
+    width: 100%;
+}
+
+.using-vs-right {
+    width: 50%;
+    text-align: right;
+}
+
+/* =================================
+        Tutorial Section Start
+    ====================== */
+
+.tutorial-heading {
+    color: darkcyan;
+    text-shadow: 1rem 0.2rem 0.5rem var(--helper);
+    font-size: 6rem;
+    border-bottom: 10px solid var(--spacial);
+    border-bottom-style: double;
+    width: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+.Tutorial-card {
+    box-shadow: 0.6rem 0.5rem 2rem cornflowerblue;
+    padding: 3.2rem 1.5rem;
+    border-radius: 2.2rem;
+    transition: all 0.3s ease-in;
+}
+
+.Tutorial-card:hover {
+    margin-bottom: 5rem;
+    box-shadow: 0.6rem 0.5rem 2rem #FF8000;
+}
+
+.anyImage {
+    height: 125px;
+    background: gray;
+}
+
+.Tutorial-para {
+    font-style: italic;
+    margin: 1.2rem 0;
+    text-align: justify;
+}
+
+.tutorial-row {
+    height: 95vh;
+}

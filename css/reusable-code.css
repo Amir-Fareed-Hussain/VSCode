@@ -1,0 +1,108 @@
+:root {
+    --header-bg: #242222;
+    --bg: #191919;
+    --para: darkgray;
+    --defaualt: #fff;
+    --btn-bg: rgb(33, 120, 225);
+    --spacial: deepskyblue;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 6rem;
+    color: var(--defaualt);
+}
+
+h3 {
+    color: var(--defaualt);
+    font-size: 2.6rem;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: var(--defaualt);
+}
+
+h2 {
+    font-size: 4rem;
+    color: var(--defaualt);
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: var(--para);
+}
+
+
+span {
+    color: var(--spacial);
+}
+
+li {
+    list-style: none;
+}
+
+label {
+    color: var(--para);
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+.section {
+    background: var(--section-bg);
+    height: 100vh;
+}
+
+.btn {
+    color: white;
+    background-color: var(--btn-bg);
+    border: 1px solid var(--btn-bg);
+    border-radius: 2px;
+    padding: 4px 20px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.container {
+    padding: 0 6rem;
+}
+
+.all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16rem;
+    height: 30vh;
+    margin-top: 5.5rem;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+}
+
+.sub-heading {
+    color: var(--spacial);
+    font-weight: 600;
+    font-size: 50px;
+    border: 1px solid #FF8000;
+    padding: 5px 55px;
+}
